@@ -22,7 +22,7 @@ root/
 
 ```
 
-### Prerequisites
+## Prerequisites
 
 If you have not already install Node , webpack, and webpack-dev-server globally. Then install the below dependencies.
 
@@ -43,7 +43,7 @@ If you have not already install Node , webpack, and webpack-dev-server globally.
 }
 ```
 
-### Installing
+## Installing
 
 After all of the required dependencies are installed create your webpack.config.js file. It should look like the below.
 
@@ -84,26 +84,6 @@ Next set up your scripts in your package.json file. Then run ```npm start```
   "build:prod": "webpack -p && cp src/index.html dist/index.html"
 }
 ```
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
